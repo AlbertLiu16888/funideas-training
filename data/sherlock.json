@@ -14,27 +14,34 @@
         {
           "step": 1,
           "title": "開啟成績紀錄系統",
-          "content": "1. 使用 Google Chrome 瀏覽器開啟系統網址\n2. 進入後會看到「樂點福爾摩斯 - 設定介面」\n3. 畫面上有四個可展開的設定區塊：\n   ・組別設定\n   ・任務類別設定\n   ・成績配比設定\n   ・任務內容設定",
+          "content": "<p>使用 <strong>Google Chrome</strong> 瀏覽器開啟系統網址，進入後會看到以下畫面：</p><div class=\"sys-mockup\"><div class=\"sys-mockup-title\">樂點福爾摩斯 — 設定介面</div><div class=\"sys-section\"><div class=\"sys-section-header\">▶ 組別設定</div><div class=\"sys-field-row\"><span class=\"sys-label\">組別欄位名稱</span><span class=\"sys-input wide\">組別</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">組別數量</span><span class=\"sys-input\">6</span></div></div><div class=\"sys-section\"><div class=\"sys-section-header\">▶ 任務類別設定</div><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#000\"></span><span class=\"sys-label\">簡單</span><span class=\"sys-input\">3 格</span><span class=\"sys-color-bar\" style=\"background:#3b82f6\"></span><span class=\"sys-label\">普通</span><span class=\"sys-input\">2 格</span><span class=\"sys-color-bar\" style=\"background:#22c55e\"></span><span class=\"sys-label\">中等</span><span class=\"sys-input\">8 格</span></div><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#f97316\"></span><span class=\"sys-label\">困難</span><span class=\"sys-input\">5 格</span><span class=\"sys-color-bar\" style=\"background:#a855f7\"></span><span class=\"sys-label\">大師</span><span class=\"sys-input\">3 格</span></div></div><div class=\"sys-section\"><div class=\"sys-section-header\">▶ 成績配比設定</div><span class=\"sys-label\">各難度的得分與扣分比例</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">▶ 任務內容設定</div><span class=\"sys-label\">各任務的題編、內容、答案</span></div><div style=\"text-align:center;margin-top:0.75rem\"><span class=\"sys-btn blue\">🚀 開始使用</span></div></div><div class=\"sys-note\">⚠️ 畫面上有四個可展開的設定區塊，點擊即可展開查看詳細設定欄位。</div>",
           "tips": "請務必使用 Google Chrome 開啟，其他瀏覽器可能無法正常運作。",
           "preview": "https://funideastw.my.canva.site/holmesscore"
         },
         {
           "step": 2,
-          "title": "設定介面操作",
-          "content": "【組別設定】\n・組別欄位名稱：預設為「組別」\n・組別數量：可設定 2~10 組\n・展開後可編輯各組名稱（第1組~第6組）\n\n【任務類別設定】\n・六種難度等級，每種有對應格數：\n  簡單（3格）、普通（2格）、中等（8格）\n  困難（5格）、大師（3格）、提示機制\n\n【成績配比設定】\n・設定各難度的計分比例\n\n【任務內容設定】\n・設定各任務的具體內容文字",
+          "title": "設定介面 — 各區塊詳細說明",
+          "content": "<p><strong>① 組別設定</strong></p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-field-row\"><span class=\"sys-label\">組別欄位名稱</span><span class=\"sys-input wide\">組別</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">組別數量（2~10）</span><span class=\"sys-input\">6</span></div><div class=\"sys-field-row\" style=\"gap:0.3rem;margin-top:0.5rem\"><span class=\"sys-input\">第1組</span><span class=\"sys-input\">第2組</span><span class=\"sys-input\">第3組</span><span class=\"sys-input\">第4組</span><span class=\"sys-input\">第5組</span><span class=\"sys-input\">第6組</span></div></div></div><p><strong>② 任務類別設定</strong>（5種難度 + 顏色標示）</p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#000\"></span><span class=\"sys-label\">簡單 — 類別名稱</span><span class=\"sys-input\">簡單</span><span class=\"sys-label\">格數</span><span class=\"sys-input\">3</span></div><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#3b82f6\"></span><span class=\"sys-label\">普通 — 類別名稱</span><span class=\"sys-input\">普通</span><span class=\"sys-label\">格數</span><span class=\"sys-input\">2</span></div><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#22c55e\"></span><span class=\"sys-label\">中等 — 類別名稱</span><span class=\"sys-input\">中等</span><span class=\"sys-label\">格數</span><span class=\"sys-input\">8</span></div><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#f97316\"></span><span class=\"sys-label\">困難 — 類別名稱</span><span class=\"sys-input\">困難</span><span class=\"sys-label\">格數</span><span class=\"sys-input\">5</span></div><div class=\"sys-field-row\"><span class=\"sys-color-bar\" style=\"background:#a855f7\"></span><span class=\"sys-label\">大師 — 類別名稱</span><span class=\"sys-input\">大師</span><span class=\"sys-label\">格數</span><span class=\"sys-input\">3</span></div></div></div><p><strong>③ 成績配比設定</strong></p><div class=\"sys-mockup\"><table class=\"sys-table\"><tr><th>難度</th><th>得分/完成</th><th>扣分/花費</th></tr><tr><td>簡單</td><td>4</td><td>2</td></tr><tr><td>普通</td><td>6</td><td>3</td></tr><tr><td>中等</td><td>8</td><td>4</td></tr><tr><td>困難</td><td>10</td><td>5</td></tr><tr><td>大師</td><td>12</td><td>6</td></tr></table><div class=\"sys-field-row\" style=\"margin-top:0.5rem\"><span class=\"sys-label\">提示機制：-3 分/次</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">完成獎勵：+50 分</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">起始金幣：+10 分</span></div></div><p><strong>④ 任務內容設定</strong></p><div class=\"sys-mockup\"><table class=\"sys-table\"><tr><th>畫符</th><th>題編</th><th>內容</th><th>答案</th></tr><tr><td>簡單</td><td>S-1</td><td>藍紅數字</td><td>144255</td></tr><tr><td>普通</td><td>N-1</td><td>唸法</td><td>7733</td></tr><tr><td>中等</td><td>M-1</td><td>井字謎題</td><td>237415</td></tr><tr><td colspan=\"4\" style=\"color:#94a3b8\">...更多任務依各難度展開</td></tr></table></div>",
           "tips": "活動前主管會先完成設定，工作人員需了解各區塊含義，以便活動中排除問題。"
         },
         {
           "step": 3,
           "title": "進入操作模式與成績登記",
-          "content": "1. 確認所有設定正確後，點擊藍色「開始使用」按鈕\n2. 系統會驗證設定是否完整（如組別名稱未填會提示「組別名稱數量與格數不符」）\n3. 進入操作模式後：\n   ・確認來訪的組別編號\n   ・依照該組完成的任務類別登記成績\n   ・系統會自動計算各組總分",
-          "tips": "如果點「開始使用」出現錯誤提示，回頭檢查組別設定是否完整填寫。"
+          "content": "<p>確認所有設定正確後，點擊藍色 <span class=\"sys-btn blue\">🚀 開始使用</span> 按鈕進入操作模式。</p><div class=\"sys-note\">若出現「組別名稱數量與格數不符」，回頭檢查組別設定是否完整填寫。</div><p><strong>操作介面主畫面：</strong></p><div class=\"sys-mockup\"><div class=\"sys-mockup-title\">樂點福爾摩斯 — 操作介面</div><table class=\"sys-table\"><tr><th>類別</th><th>任務</th><th>第1組</th><th>第2組</th><th>第3組</th><th>...</th></tr><tr><td><span class=\"sys-color-bar\" style=\"background:#000\"></span>簡單<br><small>得4/扣2</small></td><td>藍紅數字</td><td class=\"cell-book\">開始</td><td class=\"cell-success\">✓ 成功</td><td class=\"cell-active\">進行中</td><td>...</td></tr><tr><td><span class=\"sys-color-bar\" style=\"background:#3b82f6\"></span>普通<br><small>得6/扣3</small></td><td>唸法</td><td class=\"cell-success\">✓ 成功</td><td class=\"cell-book\">開始</td><td class=\"cell-fail\">✗ 失敗</td><td>...</td></tr><tr><td colspan=\"6\" style=\"color:#94a3b8\">...更多任務列...</td></tr><tr style=\"background:#fff3f3\"><td colspan=\"2\"><strong>總分</strong></td><td style=\"color:red;font-weight:700\">58</td><td style=\"color:red;font-weight:700\">42</td><td style=\"color:red;font-weight:700\">35</td><td>...</td></tr></table></div><p><strong>每格的四種狀態：</strong></p><div class=\"sys-status-demo\"><span class=\"sys-status-item\" style=\"background:#eff6ff;color:#3b82f6\">📋 開始</span><span class=\"sys-status-item\" style=\"background:#fef9c3;color:#a16207\">⏳ 進行中</span><span class=\"sys-status-item\" style=\"background:#dcfce7;color:#16a34a\">✓ 成功</span><span class=\"sys-status-item\" style=\"background:#fee2e2;color:#dc2626\">✗ 失敗</span></div><p><strong>操作流程：</strong></p><div class=\"sys-flow\"><span class=\"sys-flow-step\">確認組別</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">點擊「開始」</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">扣除金幣</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">進行中</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">✓成功 / ✗失敗</span></div><div class=\"sys-note\">💡 系統自動計算各組總分（含得分、扣分、提示扣分、完成獎勵等）</div>",
+          "tips": "如果點「開始使用」出現錯誤提示，回頭檢查組別設定是否完整填寫。",
+          "preview": "https://funideastw.my.canva.site/holmesscore"
         },
         {
           "step": 4,
+          "title": "操作介面進階功能",
+          "content": "<p><strong>操作介面附加功能按鈕：</strong></p><div class=\"sys-mockup\"><div class=\"sys-field-row\" style=\"justify-content:center;gap:0.5rem;flex-wrap:wrap\"><span class=\"sys-btn blue\">全螢幕編輯</span><span class=\"sys-btn slate\">新增組別</span><span class=\"sys-btn amber\">全螢幕檢視</span><span class=\"sys-btn slate\">返回設定</span><span class=\"sys-btn red\">重製所有分數</span></div></div><p><strong>計數器管理區：</strong></p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-section-header\">提示機制（每次 -3 分）</div><div class=\"sys-field-row\"><span class=\"sys-label\">第1組</span><span class=\"sys-btn slate\">−</span><span class=\"sys-input\">0</span><span class=\"sys-btn slate\">+</span><span style=\"margin-left:1rem\" class=\"sys-label\">第2組</span><span class=\"sys-btn slate\">−</span><span class=\"sys-input\">0</span><span class=\"sys-btn slate\">+</span></div></div><div class=\"sys-section\"><div class=\"sys-section-header\">手動加分區</div><div class=\"sys-field-row\"><span class=\"sys-label\">密室總分</span><span class=\"sys-label\">密室退款分</span><span class=\"sys-label\">賽前加分</span><span class=\"sys-label\">分享加分</span><span class=\"sys-label\">扣分</span></div></div></div><p><strong>即時成績排行榜：</strong></p><div class=\"sys-mockup\"><div class=\"sys-mockup-title amber\">🏆 即時成績排行榜</div><div class=\"sys-field-row\" style=\"justify-content:center\"><span class=\"sys-btn amber\">🥇 第3組 — 78分</span></div><div class=\"sys-field-row\" style=\"justify-content:center\"><span class=\"sys-btn slate\">🥈 第1組 — 65分</span></div><div class=\"sys-field-row\" style=\"justify-content:center\"><span class=\"sys-btn slate\">🥉 第5組 — 52分</span></div></div>",
+          "tips": "「全螢幕編輯」適合在大螢幕投影時使用；排行榜可即時呈現各組排名。"
+        },
+        {
+          "step": 5,
           "title": "任務卡派發與特殊狀況",
-          "content": "【派發流程】\n1. 確認來訪組別編號\n2. 從對應信封中取出該組的任務卡\n3. 向組員說明任務規則與時間限制\n4. 在系統登記該組成績\n\n【特殊狀況處理】\n・參與者對規則有疑問：耐心重新說明，不可透露答案\n・系統異常：立即通報場控，先用紙本記錄\n・組別爭議：記錄狀況並回報主管處理",
-          "tips": "遇到不確定的情況，請說「我幫您確認一下，稍等回覆您」，不要自行猜測回答。"
+          "content": "<p><strong>任務卡派發流程：</strong></p><div class=\"sys-flow\"><span class=\"sys-flow-step\">①確認組別編號</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">②取出任務卡</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">③說明規則</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">④系統登記成績</span></div><p style=\"margin-top:1rem\"><strong>特殊狀況處理：</strong></p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-section-header\">❓ 參與者對規則有疑問</div><span class=\"sys-label\">耐心重新說明，<strong style=\"color:var(--error)\">不可透露答案</strong></span></div><div class=\"sys-section\"><div class=\"sys-section-header\">⚠️ 系統異常</div><span class=\"sys-label\">立即通報場控，先用<strong>紙本記錄</strong>成績</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">🔄 組別爭議</div><span class=\"sys-label\">記錄狀況並<strong>回報主管</strong>處理</span></div></div><div class=\"sys-note\">💡 遇到不確定的情況，請說「我幫您確認一下，稍等回覆您」</div>",
+          "tips": "遇到不確定的情況，不要自行猜測回答，先回報再處理。"
         }
       ],
       "verification": [
@@ -49,8 +56,8 @@
           "id": "td-q2",
           "question": "系統設定介面中，「任務類別設定」包含幾種難度等級？",
           "type": "choice",
-          "options": ["3種", "4種", "5種", "6種（含提示機制）"],
-          "answer": 3
+          "options": ["3種", "4種", "5種（簡單/普通/中等/困難/大師）", "6種（含提示機制）"],
+          "answer": 2
         },
         {
           "id": "td-q3",
@@ -79,6 +86,20 @@
           "type": "choice",
           "options": ["等系統恢復", "通報場控，先用紙本記錄", "關閉系統重開", "請參與者等待"],
           "answer": 1
+        },
+        {
+          "id": "td-q7",
+          "question": "在操作介面中，任務格子顯示黃色「進行中」代表什麼？",
+          "type": "choice",
+          "options": ["該組尚未開始", "該組正在進行此任務", "該組已完成任務", "系統異常"],
+          "answer": 1
+        },
+        {
+          "id": "td-q8",
+          "question": "成績配比設定中，「提示機制」的效果是什麼？",
+          "type": "choice",
+          "options": ["每次加3分", "每次扣3分", "每次扣10分", "沒有影響"],
+          "answer": 1
         }
       ]
     },
@@ -92,32 +113,33 @@
         {
           "step": 1,
           "title": "開啟密室預約系統",
-          "content": "1. 使用 Google Chrome 瀏覽器開啟預約系統網址\n2. 進入後會看到「樂點福爾摩斯-密室任務預約表」\n3. 畫面上方有兩個分頁按鈕：\n   ・⚙️ 設定介面（橘色）\n   ・🎮 操作介面（灰色/橘色）\n4. 預設進入「設定介面」",
+          "content": "<p>使用 <strong>Google Chrome</strong> 開啟預約系統網址，進入後會看到以下畫面：</p><div class=\"sys-mockup\"><div class=\"sys-mockup-title slate\">樂點福爾摩斯 — 密室任務預約表</div><div style=\"display:flex;gap:0.5rem;margin-bottom:0.75rem\"><span class=\"sys-btn amber\" style=\"flex:1;text-align:center\">⚙️ 設定介面</span><span class=\"sys-btn slate\" style=\"flex:1;text-align:center\">🎮 操作介面</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">⚙️ 系統設定</div><div class=\"sys-field-row\"><span class=\"sys-label\">⏰ 截止時間</span><span class=\"sys-input\">17:00</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">👥 總共組數</span><span class=\"sys-input\">10</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">📋 預約順位格數</span><span class=\"sys-input\">20</span></div><div class=\"sys-field-row\"><span class=\"sys-label\">🚀 任務數量</span><span class=\"sys-input\">2</span></div></div><div style=\"text-align:center;margin-top:0.75rem\"><span class=\"sys-btn amber\">✅ 套用設定並生成表格</span></div></div><div class=\"sys-note\">⚠️ 預約系統與成績系統是<strong>不同的網址</strong>，請勿混淆！</div>",
           "tips": "預約系統與成績系統是不同的網址，請勿混淆！",
           "preview": "https://funideastw.my.canva.site/reservemission"
         },
         {
           "step": 2,
-          "title": "設定介面操作",
-          "content": "「設定介面」的系統設定區塊包含四個欄位：\n\n⏰ 截止時間（24小時制）：設定活動結束時間\n👥 總共組數：設定參與的組別數量\n📱 預約順位格數（1-40）：每個任務可預約的順位數\n🎯 任務數量（2-15）：密室任務的數量\n\n下方有「🎯 任務設定」可展開設定各任務名稱與配分\n\n設定完成後點擊橘色按鈕「✅ 套用設定並生成表格」",
-          "tips": "活動前主管會先完成設定，工作人員需要了解各欄位含義以便排除問題。"
+          "title": "設定介面 — 欄位說明與任務設定",
+          "content": "<p><strong>四個主要設定欄位：</strong></p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-field-row\"><span class=\"sys-label\">⏰ 截止時間（24小時制）</span><span class=\"sys-input\">17:00</span></div><p style=\"font-size:0.78rem;color:#64748b;margin:0.2rem 0 0.5rem\">→ 設定活動結束時間，超過後不可再預約</p><div class=\"sys-field-row\"><span class=\"sys-label\">👥 總共組數</span><span class=\"sys-input\">10</span></div><p style=\"font-size:0.78rem;color:#64748b;margin:0.2rem 0 0.5rem\">→ 參與的組別數量</p><div class=\"sys-field-row\"><span class=\"sys-label\">📋 預約順位格數（1-40）</span><span class=\"sys-input\">20</span></div><p style=\"font-size:0.78rem;color:#64748b;margin:0.2rem 0 0.5rem\">→ 每個任務可預約的順位數（表格橫軸欄位數）</p><div class=\"sys-field-row\"><span class=\"sys-label\">🚀 任務數量（2-15）</span><span class=\"sys-input\">2</span></div><p style=\"font-size:0.78rem;color:#64748b;margin:0.2rem 0\">→ 密室任務的數量（表格縱軸列數）</p></div></div><p><strong>🎯 任務設定（展開後）：</strong></p><div class=\"sys-mockup\"><table class=\"sys-table\"><tr><th>任務名稱</th><th>預約扣除（分/次）</th><th>成功獎勵（分/次）</th><th>同時進行組數</th></tr><tr><td>終極密令A</td><td style=\"color:#dc2626\">-10</td><td style=\"color:#16a34a\">+20</td><td>1</td></tr><tr><td>終極密令B</td><td style=\"color:#dc2626\">-20</td><td style=\"color:#16a34a\">+40</td><td>1</td></tr></table></div><div style=\"text-align:center;margin-top:0.75rem\"><span class=\"sys-btn amber\">✅ 套用設定並生成表格</span></div><div class=\"sys-note\">💡 點擊「套用設定並生成表格」後會自動切換到操作介面。</div>",
+          "tips": "活動前主管會先完成設定，工作人員需了解各欄位含義以便排除問題。"
         },
         {
           "step": 3,
           "title": "操作介面 — 預約表格",
-          "content": "點擊「🎮 操作介面」分頁後，畫面分為四個區域：\n\n【頂部資訊列】\n・顯示截止時間、總組數、現在時間\n・右側有紅色「重置所有資料」按鈕\n\n【預約表格】（主要操作區）\n・橫軸：順位 1、順位 2、順位 3...\n・縱軸：各任務名稱（如終極密令A、終極密令B）\n・每格顯示「預約」按鈕，點擊可為該組預約\n・每個任務旁顯示配分（如扣10/得20）\n・右上角有「全螢幕編輯」按鈕",
-          "tips": "預約表格是你最主要的操作區域，要隨時注意各任務的預約狀況。"
+          "content": "<p>點擊 <span class=\"sys-btn slate\">🎮 操作介面</span> 分頁後，畫面如下：</p><div class=\"sys-mockup\"><div class=\"sys-mockup-title slate\">🎮 操作介面</div><div class=\"sys-field-row\" style=\"justify-content:space-between;margin-bottom:0.75rem\"><span class=\"sys-label\">⏰ 截止：17:00</span><span class=\"sys-label\">👥 總組數：10</span><span class=\"sys-label\">現在：14:32:05</span><span class=\"sys-btn red\" style=\"font-size:0.72rem\">🗑️ 重置所有資料</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">📊 預約表格 <span style=\"font-weight:400;font-size:0.78rem;margin-left:auto\"><span class=\"sys-btn blue\" style=\"font-size:0.7rem\">🖥️ 全螢幕編輯</span></span></div><div style=\"overflow-x:auto\"><table class=\"sys-table\"><tr><th>任務名稱</th><th>順位1</th><th>順位2</th><th>順位3</th><th>順位4</th><th>...</th></tr><tr><td>終極密令A<br><small style=\"color:#64748b\">扣10/得20</small></td><td class=\"cell-success\">第3組<br>✓ 成功</td><td class=\"cell-active\">第1組<br>進行中...</td><td class=\"cell-book\">📝 預約</td><td class=\"cell-book\">📝 預約</td><td>...</td></tr><tr><td>終極密令B<br><small style=\"color:#64748b\">扣20/得40</small></td><td class=\"cell-active\">第5組<br>▶️ 開始</td><td class=\"cell-fail\">第2組<br>✗ 失敗</td><td class=\"cell-book\">📝 預約</td><td class=\"cell-book\">📝 預約</td><td>...</td></tr></table></div></div></div><p><strong>每格的五種狀態：</strong></p><div class=\"sys-status-demo\"><span class=\"sys-status-item\" style=\"background:#eff6ff;color:#3b82f6\">📝 預約</span><span class=\"sys-status-item\" style=\"background:#e0f2fe;color:#0369a1\">▶️ 開始</span><span class=\"sys-status-item\" style=\"background:#fef9c3;color:#a16207\">⏳ 進行中</span><span class=\"sys-status-item\" style=\"background:#dcfce7;color:#16a34a\">✓ 成功</span><span class=\"sys-status-item\" style=\"background:#fee2e2;color:#dc2626\">✗ 失敗</span></div>",
+          "tips": "預約表格是你最主要的操作區域，要隨時注意各任務的預約狀況。",
+          "preview": "https://funideastw.my.canva.site/reservemission"
         },
         {
           "step": 4,
-          "title": "操作介面 — 統計區域",
-          "content": "預約表格下方有三個重要統計區塊：\n\n📝【各任務尚未預約組別】\n・黃色卡片顯示每個任務還有哪些組尚未預約\n・快速查看哪些組需要安排\n\n💰【時間截止未玩退費統計】\n・顯示截止時間與「結算」按鈕\n・活動結束時用於結算未完成的組別\n\n🏆【各組所有任務總獎勵】\n・顯示各組累計的總分",
+          "title": "操作介面 — 統計區域與彈窗操作",
+          "content": "<p>預約表格下方有三個重要統計區塊：</p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-section-header\">📝 各任務尚未預約組別</div><div><span class=\"sys-label\">終極密令A：</span><span class=\"sys-stat-card\">第4組</span><span class=\"sys-stat-card\">第6組</span><span class=\"sys-stat-card\">第7組</span><span class=\"sys-stat-card\">第8組</span><span class=\"sys-stat-card\">第9組</span><span class=\"sys-stat-card\">第10組</span></div><div style=\"margin-top:0.4rem\"><span class=\"sys-label\">終極密令B：</span><span class=\"sys-stat-card\">第1組</span><span class=\"sys-stat-card\">第3組</span><span class=\"sys-stat-card\">第4組</span><span class=\"sys-stat-card\">...</span></div></div><div class=\"sys-section\"><div class=\"sys-section-header\">💰 時間截止未玩退費統計</div><div class=\"sys-field-row\"><span class=\"sys-label\">截止時間：17:00</span><span class=\"sys-btn amber\" style=\"font-size:0.75rem\">💳 結算</span></div><span style=\"font-size:0.78rem;color:#64748b\">→ 活動結束後，顯示已預約但未開始的組別扣款金額</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">🏆 各組所有任務總獎勵</div><div class=\"sys-field-row\"><span class=\"sys-input\" style=\"background:#dcfce7;color:#16a34a\">第3組：+20</span><span class=\"sys-input\" style=\"background:#fee2e2;color:#dc2626\">第2組：-20</span><span class=\"sys-input\" style=\"background:#f1f5f9;color:#94a3b8\">第4組：0</span></div></div></div><p><strong>預約彈窗流程（點擊「📝 預約」後）：</strong></p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-section-header\">📝 預約 — 終極密令A</div><p style=\"font-size:0.85rem\">請收取 <strong style=\"color:#dc2626\">10 元</strong></p><div class=\"sys-field-row\"><span class=\"sys-label\">輸入組別編號</span><span class=\"sys-input\">3</span></div><div class=\"sys-field-row\" style=\"margin-top:0.5rem;justify-content:flex-end;gap:0.5rem\"><span class=\"sys-btn slate\">取消</span><span class=\"sys-btn amber\">確認預約</span></div></div></div>",
           "tips": "隨時關注「尚未預約組別」區塊，主動提醒尚未預約的組別前來預約。"
         },
         {
           "step": 5,
-          "title": "預約操作流程",
-          "content": "當組別到達預約桌時：\n1. 確認組別編號\n2. 查看預約表格中各任務的可用順位\n3. 點擊對應任務的「預約」按鈕\n4. 選擇該組別，完成預約\n5. 告知組別預約的任務名稱與順位\n\n【特殊狀況】\n・所有順位已滿：引導至等候區或其他任務\n・組別未到：等候5分鐘後釋放順位\n・活動結束：點擊「結算」進行退費統計",
+          "title": "完整預約操作流程與特殊狀況",
+          "content": "<p><strong>完整操作流程：</strong></p><div class=\"sys-flow\"><span class=\"sys-flow-step\">①確認組別</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">②點「預約」</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">③收取費用</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">④確認預約</span></div><div class=\"sys-flow\" style=\"margin-top:0.3rem\"><span class=\"sys-flow-step\">⑤點「開始」</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">⑥廣播1人代表</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">⑦給關卡牌</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">⑧全員前往</span></div><div class=\"sys-flow\" style=\"margin-top:0.3rem\"><span class=\"sys-flow-step\">⑨回報結果</span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">✓成功：給獎勵、收回關卡牌及成功卡</span></div><div class=\"sys-flow\"><span style=\"width:5.5rem\"></span><span class=\"sys-flow-arrow\">→</span><span class=\"sys-flow-step\">✗失敗：收回關卡牌</span></div><p style=\"margin-top:1rem\"><strong>特殊狀況處理：</strong></p><div class=\"sys-mockup\"><div class=\"sys-section\"><div class=\"sys-section-header\">🚫 所有順位已滿</div><span class=\"sys-label\">引導至等候區或建議先做其他任務</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">⏰ 組別未到（已預約）</div><span class=\"sys-label\">等候 5 分鐘後釋放順位</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">🔔 5分鐘自動檢查提醒</div><span class=\"sys-label\">系統每5分鐘會自動檢查任務進度，提醒哪些組可以開始</span></div><div class=\"sys-section\"><div class=\"sys-section-header\">🏁 活動結束</div><span class=\"sys-label\">點擊「💳 結算」進行退費統計，結算未完成組別的扣款</span></div></div>",
           "tips": "即時更新預約狀態是確保排程順暢的關鍵，不要堆積未處理的預約。"
         }
       ],
