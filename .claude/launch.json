@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "funideas-training",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "/Users/mac/claude projects/funideas-training", "-l", "3456", "--no-clipboard"],
+      "port": 3456
+    }
+  ]
+}

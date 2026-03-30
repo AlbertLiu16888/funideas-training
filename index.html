@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>樂點創意 — 工作人員教學驗收系統</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+
+  <!-- ===== Login Screen ===== -->
+  <div id="login-screen" class="login-overlay">
+    <div class="login-box">
+      <h1>🎯 樂點創意</h1>
+      <p>工作人員教學驗收系統<br>請輸入工作人員密碼</p>
+      <input type="password" id="login-password" placeholder="請輸入密碼"
+             onkeydown="if(event.key==='Enter') handleLogin()" autofocus>
+      <div class="error-msg" id="login-error"></div>
+      <button class="btn btn-primary btn-full" onclick="handleLogin()">登入</button>
+    </div>
+  </div>
+
+  <!-- ===== Home Screen ===== -->
+  <div id="home-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <div>
+          <h1>🎯 樂點創意</h1>
+          <div class="header-subtitle">工作人員教學驗收系統</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="mb-2">選擇活動主題</h2>
+      <div class="theme-grid" id="theme-grid"></div>
+    </div>
+  </div>
+
+  <!-- ===== Theme Screen (Station Selection) ===== -->
+  <div id="theme-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <button class="btn-back" onclick="goBack('home')">← 返回</button>
+        <div>
+          <h1 id="theme-title"></h1>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="name-input-section">
+        <label for="user-name">👤 請輸入你的姓名</label>
+        <input type="text" id="user-name" placeholder="請輸入真實姓名" autocomplete="name">
+      </div>
+      <h3 class="mb-1">選擇你負責的工作崗位</h3>
+      <div class="station-list" id="station-list"></div>
+    </div>
+  </div>
+
+  <!-- ===== Station Screen (Mode Selection) ===== -->
+  <div id="station-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <button class="btn-back" onclick="goBack('theme')">← 返回</button>
+        <div>
+          <h1 id="station-title"></h1>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card text-center mb-2">
+        <div style="font-size:0.9rem;color:var(--text-secondary)">工作人員</div>
+        <div style="font-size:1.3rem;font-weight:700" id="station-user-display"></div>
+      </div>
+      <div class="mode-buttons">
+        <div class="card card-clickable mode-card" onclick="startTeaching()">
+          <div class="mode-icon">📖</div>
+          <div class="mode-title">教學模式</div>
+          <div class="mode-desc">學習崗位工作內容與流程</div>
+        </div>
+        <div class="card card-clickable mode-card" onclick="startVerification()">
+          <div class="mode-icon">✅</div>
+          <div class="mode-title">驗收模式</div>
+          <div class="mode-desc">測驗是否熟悉工作內容</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Teaching Screen ===== -->
+  <div id="teaching-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <button class="btn-back" onclick="showStationPage()">← 返回</button>
+        <div>
+          <h1>📖 教學模式</h1>
+          <div class="header-subtitle" id="teaching-station-name"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="teaching-progress" id="teaching-progress"></div>
+      <div id="teaching-content"></div>
+      <div class="teaching-nav">
+        <button class="btn btn-outline" id="teach-prev" onclick="prevTeachingStep()">← 上一步</button>
+        <button class="btn btn-primary" id="teach-next">下一步 →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Verification Screen ===== -->
+  <div id="verify-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <button class="btn-back" onclick="showStationPage()">← 返回</button>
+        <div>
+          <h1>✅ 驗收模式</h1>
+          <div class="header-subtitle" id="verify-station-name"></div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="verify-header">
+        <span id="verify-progress-text"></span>
+      </div>
+      <div class="verify-progress-bar">
+        <div class="verify-progress-fill" id="verify-progress-fill"></div>
+      </div>
+      <div id="verify-content"></div>
+    </div>
+  </div>
+
+  <!-- ===== Result Screen ===== -->
+  <div id="result-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <div></div>
+        <div>
+          <h1>📊 驗收結果</h1>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="result-content"></div>
+    </div>
+  </div>
+
+  <!-- ===== Board Screen ===== -->
+  <div id="board-screen" class="screen hidden">
+    <div class="header">
+      <div class="header-inner">
+        <button class="btn-back" onclick="showHome()">← 返回</button>
+        <div>
+          <h1>📊 驗收完成清單</h1>
+        </div>
+        <button class="board-refresh" onclick="refreshBoard()">🔄 重整</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="board-filter" id="board-filter"></div>
+      <div class="board-list" id="board-list"></div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
