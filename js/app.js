@@ -177,12 +177,24 @@ function renderTeachingStep() {
 
   // Content
   const contentEl = document.getElementById('teaching-content');
+  const previewHtml = step.preview ? `
+    <div class="preview-section">
+      <button class="btn btn-accent btn-full mt-1" onclick="togglePreview(this, '${step.preview}')">
+        🖥️ 開啟系統預覽
+      </button>
+      <div class="preview-container hidden" style="margin-top:0.75rem">
+        <iframe class="system-preview" data-src="${step.preview}"></iframe>
+      </div>
+    </div>
+  ` : '';
+
   contentEl.innerHTML = `
     <div class="teaching-card card">
       <div class="step-label">步驟 ${step.step} / ${steps.length}</div>
       <h2>${step.title}</h2>
       <div class="content">${step.content}</div>
       ${step.tips ? `<div class="tips-box">${step.tips}</div>` : ''}
+      ${previewHtml}
     </div>
   `;
 
@@ -206,6 +218,23 @@ function prevTeachingStep() {
   if (APP.teachingStep > 0) {
     APP.teachingStep--;
     renderTeachingStep();
+  }
+}
+
+function togglePreview(btn, url) {
+  const container = btn.nextElementSibling;
+  const iframe = container.querySelector('iframe');
+  const isHidden = container.classList.contains('hidden');
+
+  if (isHidden) {
+    container.classList.remove('hidden');
+    if (!iframe.src) {
+      iframe.src = iframe.dataset.src;
+    }
+    btn.textContent = '🖥️ 收起系統預覽';
+  } else {
+    container.classList.add('hidden');
+    btn.textContent = '🖥️ 開啟系統預覽';
   }
 }
 
